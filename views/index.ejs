@@ -1,0 +1,23 @@
+<%- contentFor('title') %>
+Request Header Parser Microservice
+
+<%- contentFor('h1') %>
+   Request Header Parser Microservice
+
+<%- contentFor('body') %>
+   <p>
+      This is a simple API project that parses the request header and returns
+      the IP address, preferred languages and system information of the client.
+    </p>
+    <p>
+      To get the IP address, preferred languages and system information of the
+      client, make a request to
+      <a href="/api/whoami" target="_blank">/api/whoami</a>.
+    </p>
+    <p>Example response:</p>
+    <pre>{
+    "ip": "::1",
+    "language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+    "software": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "os": "Windows NT 10.0; Win64; x64"
+}</pre>
