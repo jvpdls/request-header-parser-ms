@@ -2,6 +2,10 @@
 
 This is a simple API project that parses the request header and returns the IP address, preferred languages and system information of the client.
 
+## Live preview
+
+See a live preview of this project [here](https://request-header-parser-ms.vercel.app/).
+
 ## Usage
 
 To get the IP address, preferred languages and system information of the client, make a request to `/api/whoami`.
