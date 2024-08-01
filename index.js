@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const port = 3000;
 const cors = require("cors");
 const path = require("path");
 const api = require("./api");
@@ -26,6 +25,4 @@ app.get("*", function (req, res) {
   res.status(404).render("404");
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+module.exports = app;
