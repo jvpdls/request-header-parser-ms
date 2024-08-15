@@ -4,7 +4,7 @@ This is a simple API project that parses the request header and returns the IP a
 
 ## Live project
 
-See this project live [here](https://request-header-parser-ms.vercel.app/).
+This published is published [here](https://request-header-parser-ms.vercel.app/).
 
 ## Usage
 
